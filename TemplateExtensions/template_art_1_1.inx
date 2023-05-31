@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+    <name>Metric 1:1</name>
+    <id>org.inkscape.template.art_1_1</id>
+
+    <description>Metric 1:1</description>
+    <category>Print</category>
+
+    <param name="aspect_ratio" gui-text="Document aspect ratio (cm):" type="optiongroup" appearance="combo">
+        <option value="20|20">8:8 (20x20)</option>
+        <option value="25|25">10:10 (25x25)</option>
+        <option value="30|30">12:12 (30x30)</option>
+        <option value="41|41">16:16 (41x41)</option>
+        <option value="51|51">20:20 (51x51)</option>
+        <option value="61|61">24:24 (61x61)</option>
+        <option value="76|76">30:30 (76x76)</option>
+    </param>
+
+    <template icon="image_portrait">
+      <preset name="Metric 1:1" label="Various Sizes" visibility="icon"/>
+    </template>
+    <script>
+        <command location="inx" interpreter="python">template_art_1_1.py</command>
+    </script>
+</inkscape-extension>
+

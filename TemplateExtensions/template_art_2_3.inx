@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+    <name>Metric 2:3</name>
+    <id>org.inkscape.template.art_2_3</id>
+
+    <description>Metric 2:3</description>
+    <category>Print</category>
+
+    <param name="aspect_ratio" gui-text="Document aspect ratio (cm):" type="optiongroup" appearance="combo">
+        <option value="15|23">6:9 (15x23)</option>
+        <option value="20|30">8:12 (20x30)</option>
+        <option value="25|38">10:15 (25x38)</option>
+        <option value="30|46">12:18 (30x46)</option>
+        <option value="41|61">16:24 (41x61)</option>
+        <option value="51|76">20:30 (51x76)</option>
+        <option value="61|91">24:36 (61x91)</option>
+    </param>
+
+    <param name="orint" gui-text="Orientation:" type="optiongroup" appearance="combo">
+        <option value="0">Portrait</option>
+        <option value="1">Landscape</option>
+    </param>
+
+    <template icon="image_portrait">
+      <preset name="Metric 2:3" label="Various Sizes" visibility="icon"/>
+    </template>
+    <script>
+        <command location="inx" interpreter="python">template_art_2_3.py</command>
+    </script>
+</inkscape-extension>
+

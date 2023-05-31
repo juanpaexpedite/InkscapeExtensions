@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+    <name>Metric 4:5</name>
+    <id>org.inkscape.template.art_4_5</id>
+
+    <description>Metric 4:5</description>
+    <category>Print</category>
+
+    <param name="aspect_ratio" gui-text="Document aspect ratio (cm):" type="optiongroup" appearance="combo">
+        <option value="20|25">8:10 (20x25)</option>
+        <option value="30|38">12:15 (30x38)</option>
+        <option value="41|51">16:20 (41x51)</option>
+        <option value="61|76">24:30 (61x76)</option>
+    </param>
+
+    <param name="orint" gui-text="Orientation:" type="optiongroup" appearance="combo">
+        <option value="0">Portrait</option>
+        <option value="1">Landscape</option>
+    </param>
+
+    <template icon="image_portrait">
+      <preset name="Metric 4:5" label="Various Sizes" visibility="icon"/>
+    </template>
+    <script>
+        <command location="inx" interpreter="python">template_art_4_5.py</command>
+    </script>
+</inkscape-extension>
+
