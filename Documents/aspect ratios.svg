@@ -7,8 +7,8 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3-alpha (2a5ddc9d23, 2023-03-29)"
-   sodipodi:docname="Aspect Ratios.svg"
+   inkscape:version="1.3-beta (cedbd6c6ff, 2023-05-28)"
+   sodipodi:docname="aspect ratios.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="0.73851711"
      inkscape:cx="527.40823"
-     inkscape:cy="693.28116"
+     inkscape:cy="475.27673"
      inkscape:window-width="2560"
      inkscape:window-height="1009"
      inkscape:window-x="1916"
@@ -71,7 +71,7 @@
          id="tspan60"
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.0757px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="59.354156"
-         y="42.668781">QUICK CM VIEW</tspan></text></g><g
+         y="42.668781">QUICK cm VIEW</tspan></text></g><g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
